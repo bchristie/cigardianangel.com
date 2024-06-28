@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath: "cigardianangel.com",
+  basePath: process.env.BASE_PATH || "/cigardianangel.com",
   output: "export",
   reactStrictMode: true,
 }
